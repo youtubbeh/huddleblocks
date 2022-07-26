@@ -1,3 +1,13 @@
+header {
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: #EAF9FF;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+}
+
+
 .attribution {
     font-size: 11px; text-align: center;
 }
