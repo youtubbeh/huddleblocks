@@ -87,6 +87,14 @@ nav button {
     color: white;
 }
 
+.CTA button {
+    width: 380px;
+    height: 72px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-size: 18px;
+}
+
 .hero img {
     max-width: 55%;
 }
