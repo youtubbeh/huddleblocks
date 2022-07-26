@@ -1,0 +1,30 @@
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.guide {
+    color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    color: hsl(192, 100%, 9%);
+    color: hsl(208, 11%, 55%);
+
+    /* body copy */
+    font-size: 18px;
+
+    /* headings */
+    font-weight: 600; 
+    font-family: 'Poppins', sans-serif;
+
+    /* body, CTA */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400, 700;
+}
+/*
+- Mobile: 375px
+- Desktop: 1440px
+- [Ionicons](https://ionicons.com/)
+*/
