@@ -142,13 +142,71 @@ footer {
     color: white;
 }
 
-footer img {
-    
+img[alt="white-logo"] {
+    width: 210px;
+    margin: 0 0 30px 0;
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
     /* Turning svg logo white for footer: https://codepen.io/sosuke/pen/Pjoqqp
     https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element/53336754#53336754
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
     */
+}
+
+.footer-info {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap: 100px;
+}
+
+.contact, .links {
+    width: 40%;
+}
+
+.contact-item {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+}
+
+#location {
+    margin-left: 24px;
+}
+
+.imgwrapper {
+    width: 40px;
+}
+
+.social {
+    width: 20%;
+}
+
+ion-icon {
+    font-size: 28px;
+    margin: 0 0 0 5px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 35px;
+}
+
+.links p, .contact p {
+    margin: 0 0 14px 0;
+}
+
+.copyright p {
+    text-align: right;
+    font-size: 10px;
+    position: relative;
+    left: 40px;
 }
 
 .attribution {
