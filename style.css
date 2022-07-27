@@ -1,8 +1,3 @@
-/* Orden
-1. Hover states
-2. Mobile
-*/
-
 html {
     box-sizing: border-box;
   }
@@ -78,11 +73,31 @@ button {
     font-size: 13px;
 }
 
+button:hover, ion-icon:hover, .links p:hover {
+    cursor: pointer;
+}
+
 nav button {
     width: 180px;
     height: 45px;
     background-color: white;
     color: hsl(192, 100%, 9%);
+}
+
+nav button:hover {
+    color: hsl(208, 11%, 55%);
+}
+
+.CTA button:hover, .hero button:hover {
+    background-color: hsl(322, 100%, 76%);
+}
+
+.links p:hover {
+    text-decoration: underline;
+}
+
+ion-icon:hover {
+    color: hsl(322, 100%, 66%);
 }
 
 .hero-text button {
