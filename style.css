@@ -18,7 +18,7 @@ header {
     background-image: url(./images/bg-hero-desktop.svg);
     background-color: #EAF9FF;
     padding: 50px 60px;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 
 nav {
@@ -98,6 +98,36 @@ nav button {
 .hero img {
     max-width: 55%;
 }
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+    margin-bottom: 90px;
+    gap: 30px;
+}
+
+section {
+    box-shadow: 0px 0px 5px 3px  rgba(178, 178, 178, 0.1);
+    border-radius: 15px;
+    padding: 50px 35px 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 450px;
+}
+
+.text p {
+    color: hsl(208, 11%, 55%);
+}
+
+section img {
+    max-width: 38%;
+}
+
 
 footer {
     background-color: hsl(192, 100%, 9%);
