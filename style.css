@@ -1,8 +1,6 @@
 /* Orden
-1. Address
-2. Footer
-3. CTA
-4. Mobile
+1. CTA
+2. Mobile
 */
 
 html {
@@ -135,7 +133,6 @@ section img {
     max-width: 38%;
 }
 
-
 footer {
     background-color: hsl(192, 100%, 9%);
     padding: 180px 90px 60px 90px;
@@ -214,20 +211,15 @@ ion-icon {
     position: absolute;
     top: 0px;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(208, 11%, 55%);
+    font-style: normal;
+    font-weight: 400;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(208, 11%, 55%);
 }
-
-
-
-
-
-
-
-
-
 
 .guide {
     color: hsl(322, 100%, 66%);
