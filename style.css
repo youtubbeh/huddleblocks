@@ -1,3 +1,10 @@
+/* Orden
+1. Address
+2. Footer
+3. CTA
+4. Mobile
+*/
+
 html {
     box-sizing: border-box;
   }
@@ -131,11 +138,24 @@ section img {
 
 footer {
     background-color: hsl(192, 100%, 9%);
+    padding: 180px 90px 60px 90px;
+    color: white;
 }
 
+footer img {
+    
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    /* Turning svg logo white for footer: https://codepen.io/sosuke/pen/Pjoqqp
+    https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element/53336754#53336754
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    */
+}
 
 .attribution {
     font-size: 11px; text-align: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
 }
 
 .attribution a {
