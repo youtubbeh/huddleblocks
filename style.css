@@ -342,6 +342,30 @@ ion-icon {
         text-align: center;
     }
 
+    .footer-info {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    #three {
+        margin-bottom: 0px;
+    }
+
+    .contact, .links {
+        width: 80%;
+        overflow-wrap: unset;
+    }
+
+    .copyright p {
+        text-align: left;
+        position: static;
+    }
+
+    .social {
+        width: auto;
+        margin: 10px 0;
+    }
+
 }
 
 @media all and (max-width: 700px) {
@@ -358,39 +382,59 @@ ion-icon {
     .CTA {
         transform: translateX(-54%);
     }
-}
 
-
-.guide {
-    color: hsl(322, 100%, 66%);
-    color: hsl(193, 100%, 96%);
-    color: hsl(192, 100%, 9%);
-    color: hsl(208, 11%, 55%);
-
-    /* body copy */
-    font-size: 18px;
-
-    /* headings */
-    font-weight: 600; 
-    font-family: 'Poppins', sans-serif;
-
-    /* body, CTA */
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400, 700;
-
-    /* social icons 
-    <ion-icon name="logo-facebook"></ion-icon>
-    <ion-icon name="logo-twitter"></ion-icon>
-    <ion-icon name="logo-instagram"></ion-icon>
-
-    ion-icon {
-        font-size: 64px;
-        color: blue;
+    .contact, .links {
+        width: 80%;
+        overflow-wrap: unset;
     }
-    */
+
+    .copyright p {
+        text-align: center;
+        position: static;
+    }
+
+    .social {
+        margin: 10px auto;
+    }
 }
-/*
-- Mobile: 375px
-- Desktop: 1440px
-- [Ionicons](https://ionicons.com/)
-*/
+
+@media all and (max-width: 550px) {
+    footer {
+        padding-left: 20px;
+        padding-right: 20px; 
+        padding-bottom: 40px;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .links {
+        display: grid;
+        grid-template-columns: none;
+    }
+
+    .links p:nth-child(1) {
+        order: 1;
+    }
+
+    .links p:nth-child(2) {
+        order: 4;
+    }
+
+    .links p:nth-child(3) {
+        order: 2;
+    }
+
+    .links p:nth-child(4) {
+        order: 5;
+    }
+
+    .links p:nth-child(5) {
+        order: 3;
+    }
+
+    .links p:nth-child(6) {
+        order: 6;
+    }
+}
